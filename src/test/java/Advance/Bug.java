@@ -13,7 +13,7 @@ import java.util.*;
 /**
  * @author Nandkumar Babar
  */
-public class BUG {
+public class Bug {
 
     @Test(priority = 1)
     public void loginJira() throws IOException, ParseException {

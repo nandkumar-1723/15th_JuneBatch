@@ -1,4 +1,4 @@
-package Standard;
+package ReadFiles;
 
 import org.json.*;
 import org.json.simple.parser.*;
@@ -8,7 +8,7 @@ import java.io.*;
 /**
  * @author Nandkumar Babar
  */
-public class sample {
+public class ReadJsonFile {
     public static void main(String[] args) throws IOException, ParseException {
         FileReader fr = new FileReader("src/main/java/inputJsons/practice.json");
         JSONParser jp =new JSONParser();
