@@ -15,6 +15,10 @@ public class ReadJsonFile {
         String body = jp.parse(fr).toString();
         JSONObject js =new JSONObject(body);
 
+        //Find the length of array
+        int lengthOfArray = js.getJSONArray("students").length();
+        System.out.println("Length of array is:- "+lengthOfArray);
+
         //Student-1 name
         String name = js.getJSONArray("students").getJSONObject(0).get("name").toString();
         System.out.println(name);
